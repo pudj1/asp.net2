@@ -12,7 +12,7 @@ app.MapGet("/", (IConfiguration appConfig) => {
     var appleemployees = int.Parse(appConfig["apple:employees"]);
     var googleemployees = int.Parse(appConfig["Google-employees-number"]);
     var microsoftemployees = int.Parse(appConfig["Microsoft-employees-number"]);
-    var mydata = $"\nname:{appConfig["name"]}, surname:{appConfig["surname"]}";
+    var mydata = $"\n\nname:{appConfig["name"]}, surname:{appConfig["surname"]}";
     if (appleemployees > microsoftemployees)
     {
         if (appleemployees > googleemployees)
