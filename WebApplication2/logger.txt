@@ -2,11 +2,5 @@ Now listening on: https://localhost:7188
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
 Content root path: C:\Users\dxxdi\source\repos\WebApplication2\WebApplication2\
-Path: / Time:18:01:57
-Path: /favicon.ico Time:18:01:57
-Now listening on: https://localhost:7188
-Application started. Press Ctrl+C to shut down.
-Hosting environment: Development
-Content root path: C:\Users\dxxdi\source\repos\WebApplication2\WebApplication2\
-Path: / Time:18:03:10
-Path: /favicon.ico Time:18:03:11
+An unhandled exception has occurred while executing the request.
+Path:  Time:19:31:02 Error:Year can only be beetween 1 and 10000
