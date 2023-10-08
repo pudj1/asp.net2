@@ -6,14 +6,4 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Remove="config.ini" />
-    <None Remove="config.xml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="config.ini" />
-    <Content Include="config.xml" />
-  </ItemGroup>
-
 </Project>
